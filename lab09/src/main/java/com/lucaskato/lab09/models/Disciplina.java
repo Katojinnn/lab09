@@ -7,6 +7,8 @@ public class Disciplina {
     private String curso;
     private int semestre;
 
+    public Disciplina() {} // Construtor padrão
+
     public Disciplina(long id, String nome, String sigla, String curso, int semestre) {
         this.id = id;
         this.nome = nome;
